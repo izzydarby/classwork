@@ -1,0 +1,12 @@
+body {
+	background-color: #ADD8E6;
+}
+
+input[type="text”] {
+    margin-left: 10px;
+    width: 100%;
+}
+
+input[name=“firstName”]{
+	width: 50%;
+}

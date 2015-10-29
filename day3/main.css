@@ -1,0 +1,26 @@
+.awesome-list li:first-child {
+
+	font-weight: bold;
+}
+
+
+
+.awesome-list li:nth-child(3n +1) {
+
+	color:red;
+}
+
+
+
+a:hover {
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+
+
+a[href^="http"]:hover {
+
+	color:black;
+}

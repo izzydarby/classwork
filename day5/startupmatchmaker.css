@@ -1,0 +1,191 @@
+body {
+	width: 710px;
+}
+
+header {
+	height: 106px;
+	background-color: #000000;
+	position: relative;
+}
+
+h1 {
+	color: yellow;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	padding: 10px 0px 0px 10px;
+}
+
+nav {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+}
+
+
+li {
+	float: left;
+	color: #FFFFFF;
+	padding: 10px;
+	list-style-type: none;
+}
+
+.category {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+
+}
+
+.page {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+
+}
+
+h2 {
+	clear: both;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+
+
+}
+
+.sub-header {
+	height: 1px;
+	background-color: yellow;
+	padding: 1px;
+
+}
+
+.because {
+	background-color: #c6c6c6;
+	padding: 10px;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+	color: #989898;
+}
+.underline {
+	border-bottom: 2px solid yellow;
+}
+
+.meet-match {
+	height: 400px;
+	width: 100%;
+	background-image: url(images/coworking.jpg);
+	background-size: 100%;
+	background-repeat:no-repeat;
+
+
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+	font-size:25px;
+}
+
+.match {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size: 18px;
+}
+
+.box {
+	float: right;
+/*	background-opacity: 0.5;*/
+	margin: 20px 10px;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	box-shadow: 0 0 1em black;
+	width: 35%;
+}
+
+.profile-button {
+	background-color: yellow;
+	font-family: 'Oswald', serif;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 10px 35px;
+	position: relative;
+	-moz-border-radius: 15px;
+  	-webkit-border-radius: 5px;
+  	border: 0px solid;
+  	box-shadow: 0 0 1em none;
+  }
+
+.container {
+	width: 100%;
+
+
+}
+
+ .one-third {
+  	width: 28%;
+  	float: left;
+  	padding: 0px 5px;
+  	font-family: 'Open Sans', sans-serif;
+  	font-weight:400;
+ 
+
+}
+
+
+ .left {
+  	margin: 10px;
+  	border-right: solid 1px #999;
+
+ }
+
+ .middle {
+  	margin: 10px;
+  	border-right: solid 1px #999;
+
+ }
+
+.right {
+  	margin: 10px;
+
+
+}
+
+h4 {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.ctabutton {
+
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	font-size: 15px;
+	background-color: #d3d3d3;
+	padding: 10px 25px 10px 25px;
+	-moz-border-radius: 15px;
+  	-webkit-border-radius: 5px;
+  	border: none;
+}
+
+footer {
+	clear: both;
+	background-color: #000000;
+	color: #f7f7f7;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size:18px;
+	padding: 8px 0px 8px 10px;
+	border-top: white solid 10px;
+}
+
+a:link {
+	color: purple;
+}
+
+a:visited {
+	color: green;
+}
+
+

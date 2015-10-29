@@ -1,0 +1,75 @@
+<html>
+	<body>
+		<form>
+			<head>
+				<link rel="stylesheet" type="text/css" href="css/style.css">
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+			<script src="http://cdn.jsdelivr.net/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+			</head>
+			<fieldset>
+				<legend>Your Contact Info</legend>
+				<label for ="yourname"> Your Name </label>
+					<input type="text" name="firstName" minlength="2" required placeholder="First" id="first"></input>
+					<input type="text" name="lastName" minlength="2" required placeholder="Last" id="last"></input></input>
+		
+				<legend>Phone Number</legend>
+				<label for ="number"></label>
+				<input type="text" minlength="3" required maxlength="3" name="first3"> &mdash; </input>
+				<input type="text" minlength="3" required  maxlength="3" name="second3"> &mdash;</input>
+				<input type="text" minlength="4" required  maxlength="4" name="last4"></input>
+			
+				<legend>Address</legend>
+				<input type="text" name="streetAddress" required placeholder="Street Address">
+				</input><br>
+				<input type="text" name="secondAddress" placeholder="Address Line 2">
+				</input><br>
+				<input type="text" name="cityAddress" placeholder="City">
+				</input>
+				<input type="text" name="stateAddress" placeholder="State">
+				<input type="text" name="postalAddress" placeholder="Postal Code" maxlength="5">
+				</input>
+			</fieldset>
+
+			<fieldset>	
+				<legend>Skills & Interests</legend>
+				<label for="skills">Course</label>
+				
+				<select name="selectOne">		
+					<option selected>Select One</option>
+					<option value= "Option one">Option 1</option>
+					<option value= "Option two">Option 2</option>
+				</select>
+		
+				<legend>Past Experience</legend>
+				<input></input>
+				<label for="experience"></label>
+
+			</fieldset>
+
+			<fieldset>	
+				<legend>Anything else?</legend>
+				<label for="else">Referral</label>
+				
+				<select name="selectTwo">		
+					<option selected>None</option>
+					<option value= “Option one”>Option 1</option>
+					<option value= “Option two>Option 2</option>
+				</select>
+		
+				<legend>Comments</legend>
+				<input></input>
+				<label for="comments"></label>
+
+			</fieldset>
+				<input type="submit" value="Save Draft"></input>
+
+				<input type="submit" value="Submit"></input>
+
+
+
+
+		</form>
+
+		<script src="js/index.js"></script>
+	</body>
+</html>
